@@ -1,0 +1,27 @@
+<van-transition>
+    <view class="container">
+        <beauty-hr></beauty-hr>
+        <view class="next-box">
+            <view class="next-box-item">
+                <van-field placeholder="请输入护理频率" label="护理频率"></van-field>
+            </view>
+            <view class="next-box-item">
+                <van-field placeholder="请输入护理时间" label="护理时间"></van-field>
+            </view>
+            <view class="next-box-item">
+                <van-field placeholder="请输入护理日期" label="护理日期"></van-field>
+            </view>
+            <view class="next-box-item">
+                <van-field placeholder="请输入检测历史" label="检测历史"></van-field>
+            </view>
+            <view class="next-box-item">
+                <van-field placeholder="请输入月经期" label="月经期"></van-field>
+            </view>
+        </view>
+
+        <view class="next-box">
+            <van-button type="danger" custom-class="next-button" bindtap="go">下一步</van-button>
+        </view>
+    </view>
+</van-transition>
+

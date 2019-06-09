@@ -1,0 +1,4 @@
+/* components/hr/hr.wxss */
+.box {
+    height: 10px;
+}

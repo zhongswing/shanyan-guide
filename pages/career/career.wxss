@@ -1,0 +1,16 @@
+.list {
+    padding: auto 12px;
+}
+.list-item {
+    line-height: 44px;
+    background-color: white;
+    height: 44px;
+    padding-left: 12px;
+    margin-bottom: 1px;
+}
+.list-item-tit {
+    font-size: 12px;
+}
+.list-item-title {
+    font-size: 14px;
+}

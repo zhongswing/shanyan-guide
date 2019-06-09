@@ -1,0 +1,33 @@
+/* pages/report/report.wxss */
+page {
+    background-color: white;
+}
+.container {
+    background-color: white;
+    margin: auto 16px;
+}
+.box-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.box-member-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.card {
+    border-radius: 8px;
+    background-color: #ECECEC;
+    height: 126px;
+    padding: 24px;
+}
+.list-item-title {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.list-item-body {
+    font-size: 12px;
+    color: #666666;
+}

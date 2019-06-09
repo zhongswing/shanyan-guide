@@ -1,0 +1,16 @@
+.login-header {
+    font-size: 14px;
+    margin: 0;
+    color: rgba(69,90,100,.6);
+    padding: 35px 15px 15px;
+}
+.login-body {
+
+}
+.login-button-box {
+    text-align: center;
+    margin: 10px auto;
+}
+.login-button {
+    width: 80%;
+}

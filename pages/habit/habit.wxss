@@ -1,0 +1,11 @@
+.next-button {
+    width:60%;
+}
+.next-box {
+    text-align: center;
+    margin: 10px auto;
+}
+.next-box > .next-box-item {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

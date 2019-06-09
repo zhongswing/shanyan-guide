@@ -1,0 +1,42 @@
+<van-transition>
+    <view class="container">
+        <view style="height: 10px;"></view>
+        <view class="next-box">
+            <view>
+                <view class="next-box-item">
+                    <van-field placeholder="请输入皮肤类型" label="皮肤图片"></van-field>
+                </view>
+            </view>
+            <view class="next-box-ite">
+                <view class="next-box-item">
+                    <van-field placeholder="请输入皮肤类型" label="皮肤类型"></van-field>
+                </view>
+                <view class="next-box-item">
+                    <van-field placeholder="请输入面部问题" label="面部问题"></van-field>
+                </view>
+                <view class="next-box-item">
+                    <van-field placeholder="请输入护肤流程" label="护肤流程"></van-field>
+                </view>
+                <view class="next-box-item">
+                    <van-field placeholder="是否敏感皮肤" label="是否敏感皮肤"></van-field>
+                </view>
+                <view class="next-box-item">
+                    <van-field placeholder="请输入护肤品牌" label="护肤品牌"></van-field>
+                </view>
+            </view>
+            <view class="next-box-ite">
+                <view class="next-box-item">
+                    <van-field placeholder="以前做过的" label="以前做过的"></van-field>
+                </view>
+                <view class="next-box-item">
+                    <van-field placeholder="是否考虑微整" label="是否考虑微整"></van-field>
+                </view>
+            </view>
+        </view>
+
+        <view class="next-box">
+            <van-button type="danger" custom-class="next-button">下一步</van-button>
+        </view>
+    </view>
+</van-transition>
+

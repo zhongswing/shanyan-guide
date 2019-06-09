@@ -1,0 +1,44 @@
+<van-transition>
+    <view class="container">
+        <beauty-hr></beauty-hr>
+        <view class="card">
+            <van-row>
+                <van-col span="16">
+                    <view style="font-size: 16px;font-weight: bold;margin: 12px 0px;">美容师莉莉</view>
+                    <view style="font-size: 12px;margin-top: 52px;">
+                        <view style="font-weight: bold">完美报告 2</view>
+                        <view style="color:#666666">已获得9.2元现金红包奖励</view>
+                    </view>
+                </van-col>
+                <van-col span="8" style="text-align: right">
+                    <image class="box-avatar" src="https://avatars2.githubusercontent.com/u/3932305?s=460&v=4"></image>
+                </van-col>
+            </van-row>
+        </view>
+        <view>
+            <view wx:for="x in 10" wx:key="x">
+                <view style="margin-top: 20px;margin-bottom: 10px;">
+                    <van-row>
+                        <van-col span="4">
+                            <image style="border-radius: 15%;width: 50px;height: 50px;" src="https://avatars2.githubusercontent.com/u/3932305?s=460&v=4"></image>
+                        </van-col>
+                        <van-col span="12">
+                            <view class="list-item-title">陈勇</view>
+                            <view class="list-item-body">
+                                <view>微信昵称：燕子</view>
+                                <view>手机号：136-0345-2873</view>
+                            </view>
+                        </van-col>
+                        <van-col span="8" style="text-align: right">
+                            <view style="color: #999999;font-size: 12px;">2018-11-10</view>
+                        </van-col>
+                    </van-row>
+                </view>
+                <view style="border-bottom: 1px solid #E8E8E8"></view>
+            </view>
+        </view>
+    </view>
+    <van-button type="danger" round style="position: fixed;right: 27px;bottom: 85px;">
+        <van-icon color="#FFF" name="plus"></van-icon>
+    </van-button>
+</van-transition>

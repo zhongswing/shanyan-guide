@@ -1,0 +1,15 @@
+<van-transition>
+    <view class="container">
+        <view class="login-header">登录后，可以一键转发公司内的商品、话题等</view>
+        <view class="body">
+            <van-field label="用户名" placeholder="请输入用户名"></van-field>
+            <van-field label="验证码" placeholder="请输入验证码" use-button-slot>
+                <van-button slot="button" size="small" type="info">发送验证码</van-button>
+            </van-field>
+        </view>
+        <view class="login-button-box">
+            <van-button type="info" custom-class="login-button" bind:click="login">立即登录</van-button>
+        </view>
+    </view>
+</van-transition>
+

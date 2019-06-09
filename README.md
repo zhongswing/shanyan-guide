@@ -1,2 +1,1 @@
-# shanyan-guide
-# 修改appid
+# 美容顾问小程序

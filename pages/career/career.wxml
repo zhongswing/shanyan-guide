@@ -1,0 +1,12 @@
+<van-transition>
+    <view class="list">
+        <view class="list-item" wx:for="{{careers}}" wx:key="y" wx:for-index="y" wx:for-item="x">
+            <van-row>
+                <van-col span="3" class="list-item-tit">
+                    <van-tag color="{{x.tag_color}}">{{x.tag}}</van-tag>
+                </van-col>
+                <van-col span="19" class="list-item-title">{{x.label}}</van-col>
+            </van-row>
+        </view>
+    </view>
+</van-transition>

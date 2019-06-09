@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/report/report",
+    "pages/career/career",
+    "pages/login/login",
+    "pages/skin/skin",
+    "pages/member/create/member-create",
+    "pages/habit/habit"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/login/login",
+        "text": "登录"
+      },
+      {
+        "pagePath": "pages/career/career",
+        "text": "职业"
+      },
+      {
+        "pagePath": "pages/report/report",
+        "text": "报告"
+      },
+      {
+        "pagePath": "pages/member/create/member-create",
+        "text": "顾客"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "van-button": "./miniprogram_npm/vant-weapp/button/index",
+    "van-row": "./miniprogram_npm/vant-weapp/row/index",
+    "van-icon": "./miniprogram_npm/vant-weapp/icon/index",
+    "van-col": "./miniprogram_npm/vant-weapp/col/index",
+    "van-tag": "./miniprogram_npm/vant-weapp/tag/index",
+    "van-transition": "./miniprogram_npm/vant-weapp/transition/index",
+    "beauty-hr": "./components/hr/index",
+    "van-field": "./miniprogram_npm/vant-weapp/field/index"
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

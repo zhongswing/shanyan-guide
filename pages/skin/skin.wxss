@@ -1,0 +1,23 @@
+.next-button {
+    width:60%;
+}
+.next-box {
+    text-align: center;
+    margin: 30px auto;
+}
+.next-box-ite {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.next-box-item {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.next-box-image-item {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}
+.next-box-image {
+    text-align: center;
+}
